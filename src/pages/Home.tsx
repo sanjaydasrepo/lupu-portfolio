@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
-  faPen,
   faVideo,
   faUtensils,
 } from "@fortawesome/free-solid-svg-icons";
