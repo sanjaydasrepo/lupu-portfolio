@@ -1,27 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import {
-  faCode,
-  faVideo,
-  faUtensils,
-} from "@fortawesome/free-solid-svg-icons";
+import { faCode, faVideo, faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Lups from '../assets/lups.jpg';
+import Lups from "../assets/lups.jpeg";
 
 const Landing: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
-      <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="flex items-center mb-8">
             <img
               src={Lups}
               alt="Lupa Mudra Das"
-              className="w-[8rem] h-[8rem] rounded-full mr-6 object-center"
+              className="w-[8rem] h-[8rem] rounded-full border-4 border-orange-500 mr-6 object-fit:cover"
             />
+
             <div>
-              <h1 className="text-4xl font-extrabold text-gray-900">
+              <h1 className="sm:text-4xl text-2xl font-extrabold text-gray-900">
                 Lupa Mudra Das
               </h1>
               <p className="text-xl text-gray-600">Web Developer</p>
@@ -41,7 +38,7 @@ const Landing: React.FC = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://github.com/lupamudra"
+                  href="https://github.com/itilupu"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-gray-500"
@@ -140,7 +137,10 @@ const Landing: React.FC = () => {
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
-                      <FontAwesomeIcon icon={faVideo} className="h-6 w-6 text-white" />
+                      <FontAwesomeIcon
+                        icon={faVideo}
+                        className="h-6 w-6 text-white"
+                      />
                     </svg>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900">
@@ -163,7 +163,10 @@ const Landing: React.FC = () => {
                       viewBox="0 0 24 24"
                       stroke="currentColor"
                     >
-                      <FontAwesomeIcon icon={faUtensils} className="h-6 w-6 text-white" />
+                      <FontAwesomeIcon
+                        icon={faUtensils}
+                        className="h-6 w-6 text-white"
+                      />
                     </svg>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900">
@@ -189,7 +192,7 @@ const Landing: React.FC = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-gray-900 text-white py-8">
+      <footer className="bg-gray-900 text-white py-8 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p>&copy; 2023 Lupa Mudra Das. All rights reserved.</p>
         </div>
