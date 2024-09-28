@@ -8,7 +8,7 @@ const projects = [
     imageUrl: 'path/to/project1-image.jpg',
     technologies: ['JavaScript', 'React', 'Node.js'],
     liveUrl: 'https://project1.com',
-    githubUrl: 'https://github.com/lupamudra/project1',
+    githubUrl: 'https://github.com/itilupu/project1',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     imageUrl: 'path/to/project2-image.jpg',
     technologies: ['HTML5', 'CSS', 'JavaScript'],
     liveUrl: 'https://project2.com',
-    githubUrl: 'https://github.com/lupamudra/project2',
+    githubUrl: 'https://github.com/itilupu/project2',
   },
   // Add more projects as needed
 ];

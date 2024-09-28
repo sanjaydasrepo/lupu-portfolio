@@ -23,7 +23,7 @@ const App: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-center space-x-6">
               <a
-                href="https://github.com/lupamudra"
+                href="https://github.com/itilupu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white"

@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
               </p>
             </div>
             <div className="mt-9 flex space-x-6">
-              <a href="https://github.com/lupamudra" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-500">
+              <a href="https://github.com/itilupu" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">GitHub</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path
